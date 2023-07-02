@@ -1,38 +1,110 @@
-h1 {
+body {
+	margin: 0 auto;
+	box-sizing: border-box;
+	width: 1400px;
+	height: 7211px;
+	font-family: 'Manrope';
+}
+
+.header {
+	width: 1151px;
+	height: 25px;
+	display: flex;
+	margin: 33px 124px 0;
+	justify-content: space-between;
+}
+
+.navbar a {
+	font-size: 18px;
+	text-decoration: none;
+	letter-spacing: -0.54px;
+	text-transform: uppercase;
+	margin-left: 60px;
+	color: #121212;
+}
+
+a.about {
+	opacity: 0.5;
+	text-decoration: underline;
+}
+
+.section {
+	width: 1150px;
+	height: 650px;
+	margin: 73.76px 125px 150px;
+}
+
+.title {
 	display: flex;
 	width: 956px;
+	margin-top: 70px;
+	margin-bottom: 30px;
 	flex-direction: column;
 	font-size: 60px;
-	font-family: 'Manrope', sans-serif;
 	line-height: 60px;
 	letter-spacing: -1.8px;
-	color: black;
 }
 
-h2 {
-	display: flex;
-	width: 1048px;
-	flex-direction: column;
-	font-size: 45px;
-	font-family: 'Manrope', sans-serif;
-	letter-spacing: -1.35px;
-	color: var(--text, black);
+.image {
+	margin-bottom: 150px;
+	background-image: url(/resourses/design.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1150px;
+	height: 500px;
+	color: white;
 }
 
-p {
+.image p {
 	display: flex;
 	width: 430px;
 	flex-direction: column;
 	font-size: 20px;
-	font-family: 'Manrope', sans-serif;
 	letter-spacing: -0.6px;
-	color: aquamarine;
+	padding-top: 379px;
+	padding-left: 40px;
 }
 
-.about {
+.aside {
+	width: 1051px;
+	height: 518px;
+	margin-left: 128px;
+	margin-right: 224px;
+}
+
+.subtitle {
 	font-size: 18px;
-	font-family: 'Manrope', sans-serif;
 	letter-spacing: -0.54px;
-	text-transform: uppercase;
-	color: black;
+}
+
+.description {
+	display: flex;
+	width: 1048px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	flex-direction: column;
+	font-size: 45px;
+	letter-spacing: -1.35px;
+	color: var(--text, #121212);
+}
+
+.button {
+	display: block;
+	width: 255px;
+	height: 67px;
+	padding: 20px 40px;
+	gap: 10px;
+	border-radius: 5px;
+	background: var(--accent, #AD1818);
+}
+
+.button a {
+	font-size: 20px;
+	letter-spacing: -0.6px;
+	text-decoration: none;
+	color: white;
+}
+
+.button:hover {
+	cursor: pointer;
 }
