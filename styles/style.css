@@ -47,7 +47,7 @@ a.about {
 
 .image {
 	margin-bottom: 150px;
-	background-image: url(/resourses/design.png);
+	background-image: url(../resourses/design.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 1150px;
