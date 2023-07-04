@@ -1,16 +1,14 @@
 body {
+	width: 1400px;
+	font-family: 'Manrope';
 	margin: 0 auto;
 	box-sizing: border-box;
-	width: 1400px;
-	height: 7211px;
-	font-family: 'Manrope';
 }
 
 .header {
 	width: 1151px;
 	height: 25px;
 	display: flex;
-	margin: 33px 124px 0;
 	justify-content: space-between;
 }
 
@@ -19,7 +17,6 @@ body {
 	text-decoration: none;
 	letter-spacing: -0.54px;
 	text-transform: uppercase;
-	margin-left: 60px;
 	color: #121212;
 }
 
@@ -31,14 +28,10 @@ a.about {
 .section {
 	width: 1150px;
 	height: 650px;
-	margin: 73.76px 125px 150px;
 }
 
 .title {
-	display: flex;
 	width: 956px;
-	margin-top: 70px;
-	margin-bottom: 30px;
 	flex-direction: column;
 	font-size: 60px;
 	line-height: 60px;
@@ -46,7 +39,6 @@ a.about {
 }
 
 .image {
-	margin-bottom: 150px;
 	background-image: url(../resourses/design.png);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -56,7 +48,6 @@ a.about {
 }
 
 .image p {
-	display: flex;
 	width: 430px;
 	flex-direction: column;
 	font-size: 20px;
@@ -68,17 +59,14 @@ a.about {
 .aside {
 	width: 1051px;
 	height: 518px;
-	margin-left: 128px;
-	margin-right: 224px;
 }
 
-.subtitle {
+h2 {
 	font-size: 18px;
 	letter-spacing: -0.54px;
 }
 
 .description {
-	display: flex;
 	width: 1048px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -90,17 +78,17 @@ a.about {
 
 .button {
 	display: block;
-	width: 255px;
 	height: 67px;
 	padding: 20px 40px;
-	gap: 10px;
 	border-radius: 5px;
 	background: var(--accent, #AD1818);
+
 }
 
 .button a {
 	font-size: 20px;
 	letter-spacing: -0.6px;
+	font-family: 'Manrope';
 	text-decoration: none;
 	color: white;
 }
