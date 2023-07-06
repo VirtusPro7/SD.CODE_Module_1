@@ -1,12 +1,20 @@
 body {
 	width: 100%;
 	font-family: 'Manrope';
-	box-sizing: border-box;
+}
+
+section {
+	height: 650px;
+  margin-bottom: 150px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 125px;
+	max-width: 1400px;
 }
 
 .header {
-	width: 1151.35px;
-  height: 25.18px;
 	margin-top: 32.8px;
 	margin-bottom: 70px;
 	margin-left: 125px;
@@ -19,24 +27,6 @@ body {
 	text-transform: uppercase;
 	margin-left: 60px;
 	color: #121212;
-}
-
-a.about {
-	opacity: 0.5;
-	text-decoration: underline;
-}
-
-.section {
-	width: 1150px;
-	height: 650px;
-  margin-bottom: 150px;
-	margin-left: 125px;
-}
-
-.container {
-	margin: 0 auto;
-	max-width: 1400px;
-	flex-direction: column;
 }
 
 .title {
