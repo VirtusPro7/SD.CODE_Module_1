@@ -1,6 +1,6 @@
 body {
-	width: 100%;
-	font-family: 'Manrope';
+  width: 100%;
+  font-family: "Manrope";
 }
 
 section {
@@ -8,64 +8,105 @@ section {
 }
 
 .container {
-	margin: 0 auto;
-	padding: 0 125px;
-	max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 125px;
+  max-width: 1400px;
 }
 
-.title {
-	width: 956px;
-	font-size: 60px;
+.interiors__title {
+  width: 956px;
+  font-size: 60px;
   line-height: 60px;
-	padding-bottom: 30px;
+  padding-bottom: 30px;
   letter-spacing: -1.8px;
 }
 
-.image {
-	background-image: url(../resourses/design.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 1150px;
-	height: 500px;
-	color: white;
+.interiors__image {
+  background-image: url(../resourses/design.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1150px;
+  height: 500px;
+  color: white;
 }
 
-.image-text {
-	width: 470px;
-	font-size: 20px;
-	letter-spacing: -0.6px;
-	padding-top: 379px;
-	padding-left: 40px;
+.interiors__image-text {
+  width: 470px;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  padding-top: 379px;
+  padding-left: 40px;
 }
 
-.title-information {
-	font-size: 18px;
-	padding-bottom: 30px;
+.aside__title-information {
+  font-size: 18px;
+  padding-bottom: 30px;
   letter-spacing: -0.54px;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.text-information {
-	width: 1048px;
-	font-size: 45px;
-	padding-bottom: 30px;
+.aside__text-information {
+  width: 1048px;
+  font-size: 45px;
+  padding-bottom: 30px;
   letter-spacing: -1.35px;
 }
 
 .description a {
-	color: white;
-font-size: 20px;
-letter-spacing: -0.6px;
-text-decoration: none;
+  color: white;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  text-decoration: none;
 }
 
-.link-info {
-	padding: 20px 40px;
-	display: inline-flex;
-	background: var(--accent, #AD1818);
-	border-radius: 5px;
+.aside__link-info {
+  padding: 20px 40px;
+  display: inline-flex;
+  background: #ad1818;
+  border-radius: 5px;
 }
 
 a:hover {
-	cursor: pointer;
+  cursor: pointer;
+}
+
+.projects__first {
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  margin-bottom: 30px;
+}
+
+img {
+  padding-bottom: 15px;
+}
+
+.projects__name {
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  padding-bottom: 15px;
+}
+
+.projects__more-information {
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  color: #ad1818;
+  margin-bottom: 90px;
+}
+
+.link-info__projects {
+  height: 153px;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  padding: 56px 0;
+  display: block;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: #ad1818;
+}
+
+a:hover {
+  background-color: #ad1818;
+  color: white;
 }
