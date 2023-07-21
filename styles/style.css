@@ -22,6 +22,7 @@ section {
 }
 
 .interiors__image {
+  position: relative;
   background-image: url(../resourses/design.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -31,11 +32,12 @@ section {
 }
 
 .interiors__image-text {
+  position: absolute;
   width: 470px;
   font-size: 20px;
   letter-spacing: -0.6px;
-  padding-top: 379px;
-  padding-left: 40px;
+  left: 40px;
+  bottom: 40px;
 }
 
 .aside__title-information {
@@ -70,7 +72,7 @@ a:hover {
   cursor: pointer;
 }
 
-.projects__first {
+.projects__title {
   font-size: 18px;
   letter-spacing: -0.54px;
   margin-bottom: 30px;
@@ -110,3 +112,48 @@ a:hover {
   background-color: #ad1818;
   color: white;
 }
+
+.services {
+  background-color: #121212;
+}
+
+.services__title {
+  padding: 151px 0 34px 0;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.service__price {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+  padding-bottom: 60px;
+  color: #fff;
+}
+
+.services__discount {
+  padding-bottom: 125px;
+}
+
+/* .project__image {
+  position: relative;
+  background-image: url(../resourses/bedroom.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 717px;
+}
+
+.projects__text {
+  position: absolute;
+  width: 443px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+  bottom: 60px;
+  left: 125px;
+  color: #fff;
+} */
